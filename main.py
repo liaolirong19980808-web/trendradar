@@ -2135,6 +2135,7 @@ def send_to_feishu(
     headers = {"Content-Type": "application/json"}
 
     text_content = render_feishu_content(report_data, update_info, mode)
+    text_content = re.sub(r'<[^>]+>', '', text_content).replace('**', '')
     total_titles = sum(
         len(stat["titles"]) for stat in report_data["stats"] if stat["count"] > 0
     )
