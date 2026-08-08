@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 10</p><p>生成时间: 2026-08-09 01:58:55</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">全部新闻</td>
+                <td class="count">10</td>
+                <td class="percentage">100.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2064502213205141253" target="_blank" class="news-link">如何评价凡人修仙传 186 集，是否达到预期？</a> [16] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7671595112442367551/" target="_blank" class="news-link">中国卫星拍到猎鹰9号火箭残骸撞月</a> [20] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2069125628117214469" target="_blank" class="news-link">《工人日报》撰文批评郑钦文「盲目自信是自大…要听团队的劝」，对此你怎么看，《工人日报》说的对吗？</a> [20] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7671480831927599131/" target="_blank" class="news-link">医生提醒别忽略肠癌的身体预警</a> [24] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7671662142457646635/" target="_blank" class="news-link">乌克兰外交洗牌释放什么信号</a> [25] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E4%B8%8D%E9%A1%BE%E5%8A%9D%E5%AF%BC%E8%8A%B115%E4%B8%87%E8%AF%B7%E5%A4%A7%E5%B8%88%E8%BF%81%E5%9D%9F%E6%94%B9%E8%BF%90" target="_blank" class="news-link">男子不顾劝导花15万请大师迁坟改运</a> [26] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7671480510048452651/" target="_blank" class="news-link">舒默怒斥特朗普：你在哪个星球</a> [27] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%A5%BD%E5%83%8F%E7%BB%99%E9%BA%BB%E8%BE%A3%E7%83%AB%E5%BA%97%E7%9A%84%E8%84%B8%E5%A4%AA%E5%A4%9A%E4%BA%86&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">好像给麻辣烫店的脸太多了</a> [27] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7671035553571635254/" target="_blank" class="news-link">郑丽文是否与王惠美魏平政同框受瞩目</a> [28] <font color='grey'>- 01时58分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%BD%93%E5%B9%B4%E7%9A%84CF%E8%80%81%E7%8E%A9%E5%AE%B6%E7%8E%B0%E5%9C%A8%E5%9C%A8%E5%81%9A%E4%BB%80%E4%B9%88" target="_blank" class="news-link">当年的CF老玩家现在在做什么</a> [30] <font color='grey'>- 01时58分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
