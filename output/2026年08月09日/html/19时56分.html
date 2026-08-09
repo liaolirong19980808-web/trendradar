@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 38</p><p>生成时间: 2026-08-09 19:56:19</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">全部新闻</td>
+                <td class="count">38</td>
+                <td class="percentage">100.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%99%BD%E6%B5%B7%E8%B1%9A%E5%9C%A8%E6%B5%99%E6%B1%9F%E4%B9%90%E6%B8%85%E4%BA%8C%E6%AC%A1%E7%99%BB%E9%99%86" target="_blank" class="news-link">白海豚在浙江乐清二次登陆</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8vS3pS8BvYm" target="_blank" class="news-link">伊朗最高领袖与总统会谈</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28356987&amp;amp;topic_name=%E6%97%A5%E6%9C%AC%E7%88%B6%E5%A5%B3%E9%97%B9%E6%8E%B0%2C%E4%B8%80%E5%8F%A5%E6%81%B6%E5%BF%83%E4%BC%A4%E9%80%8F%E5%BF%83" target="_blank" class="news-link">日本父女闹掰,一句恶心伤透心</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2068398077522793536" target="_blank" class="news-link">你会去电影院看沈腾主演的新电影《欢迎来龙餐馆》吗？票房能破 50 亿吗?</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33748939" target="_blank" class="news-link">台风“白海豚”在浙江台州玉环沿海登陆，中心附近最大风力14级</a> [6] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%8F%90%E6%AC%A7%E5%A5%A5%E7%89%B9%E6%9B%BC%E5%BC%80%E6%92%AD%E5%A5%BD%E7%9C%8B%E5%90%97" target="_blank" class="news-link">提欧奥特曼开播好看吗</a> [6] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2603539" target="_blank" class="news-link">台风白海豚在浙江乐清二次登陆</a> [7] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7671909356430000170/" target="_blank" class="news-link">婴儿被子蒙头 小猫扒醒宝妈</a> [8] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%99%88%E5%B9%B8%E5%90%8C2%E6%AF%944%E5%BC%A0%E6%9C%AC%E7%BE%8E%E5%92%8C%23&amp;t=31&amp;band_rank=9&amp;Refer=top" target="_blank" class="news-link">陈幸同2比4张本美和</a> [9] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%99%88%E5%B9%B8%E5%90%8C2%E6%AF%944%E5%BC%A0%E6%9C%AC%E7%BE%8E%E5%92%8C+%E5%9B%BD%E4%B9%92%E5%8F%8C%E7%BA%BF%E4%B8%A2%E5%86%A0" target="_blank" class="news-link">陈幸同2比4张本美和 国乒双线丢冠</a> [10] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%BC%A0%E6%9C%AC%E6%99%BA%E5%92%8Cvs%E5%90%B4%E6%99%99%E8%AF%9A&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">张本智和vs吴晙诚</a> [10] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=JDG%20WE" target="_blank" class="news-link">JDG vs WE LPL第三赛段</a> [12] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E6%B2%88%E8%85%BE%20%E5%BD%B1%E5%B8%9D&amp;t=31&amp;band_rank=12&amp;Refer=top" target="_blank" class="news-link">沈腾 影帝</a> [12] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2603142" target="_blank" class="news-link">EDG生死战对阵WOL</a> [12] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=TE%20FPX" target="_blank" class="news-link">TE vs FPX VCT第二赛段</a> [14] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2603232" target="_blank" class="news-link">2026年“未录满”本科专业排行榜</a> [14] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7670762104779653139/" target="_blank" class="news-link">叶倩文宣布喜添新孙</a> [15] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E9%A6%99%E6%B8%AF%E5%88%B7%E6%96%B01884%E5%B9%B4%E4%BB%A5%E6%9D%A5%E6%9C%80%E9%AB%98%E6%B0%94%E6%B8%A9%E7%BA%AA%E5%BD%95" target="_blank" class="news-link">香港刷新1884年以来最高气温纪录</a> [17] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33745492" target="_blank" class="news-link">苹果官网：Mac电脑可配合苹果智能使用千问，进行文本创作、使用Siri问答</a> [17] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33747514" target="_blank" class="news-link">经济日报：规范航班超售不可错开药方</a> [18] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33746909" target="_blank" class="news-link">受台风“白海豚”影响，8月9日上海两大机场近六成航班调减取消</a> [19] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2067910668142093912" target="_blank" class="news-link">如何看待「现在查 RTX 5090 价格已经变成了一种恐怖片题材」这个梗？</a> [19] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8E%9F%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%80%E5%8F%B7%E4%BD%8D%E5%8A%A0%E5%85%A5%E5%B0%8F%E7%B1%B3" target="_blank" class="news-link">原字节跳动机器人一号位加入小米</a> [20] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33747722" target="_blank" class="news-link">中央气象台升级发布台风红警：六省份有大暴雨，浙江局地特大暴雨</a> [20] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%B4%9B%E7%A5%9E%E6%9D%AF2%20%E5%86%A0%E5%86%9B%E4%B9%8B%E5%A4%9C" target="_blank" class="news-link">洛神杯2 冠军之夜</a> [20] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E5%B8%A6%E8%B5%B0%E7%94%B7%E5%8F%8B10%E4%B8%87%E7%95%99%E8%A8%80%E5%91%8A%E7%9F%A5%E4%BB%8D%E8%A2%AB%E5%88%A4%E7%9B%97%E7%AA%83%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">女子带走男友10万留言告知仍被判盗窃</a> [20] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7671944826552057899/" target="_blank" class="news-link">印女子出轨被撞破与情夫一起遭毒打</a> [22] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=13%E5%90%A8%E6%B6%88%E9%98%B2%E8%BD%A6%E8%A2%AB%E5%8F%B0%E9%A3%8E%E5%90%B9%E5%BE%97%E5%B7%A6%E5%8F%B3%E6%91%87%E6%99%83" target="_blank" class="news-link">13吨消防车被台风吹得左右摇晃</a> [22] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%A8%8B%E6%99%93%E7%8E%A5%E8%B0%88%E7%A6%BB%E5%A9%9A%23&amp;t=31&amp;band_rank=22&amp;Refer=top" target="_blank" class="news-link">程晓玥谈离婚</a> [22] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%BC%A0%E6%9C%AC%E6%99%BA%E5%92%8C%E6%A8%AA%E6%BB%A8%E8%B5%9B%E5%86%A0%E5%86%9B%23&amp;t=31&amp;band_rank=23&amp;Refer=top" target="_blank" class="news-link">张本智和横滨赛冠军</a> [23] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7670743667880476710/" target="_blank" class="news-link">宝妈自然受孕四胞胎取名“平安喜乐”</a> [24] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E9%87%91%E5%86%AC%E5%A4%A9%E7%94%B0%E6%9F%BE%E5%9B%BD%E7%82%B9%E8%B5%9E%E5%90%8C%E4%B8%80%E6%9D%A1%E5%B8%96%E5%AD%90&amp;t=31&amp;band_rank=24&amp;Refer=top" target="_blank" class="news-link">金冬天田柾国点赞同一条帖子</a> [24] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2603007" target="_blank" class="news-link">手写LOVE打开我的夏天</a> [25] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A%E7%99%BB%E9%99%86%E5%BC%BA%E5%BA%A6%E7%95%A5%E5%BC%BA%E4%BA%8E%E5%B7%B4%E5%A8%81" target="_blank" class="news-link">台风白海豚登陆强度略强于巴威</a> [28] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=TF%E5%9B%9B%E4%BB%A3%E7%AA%81%E5%9B%B42&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">TF四代突围2</a> [29] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A9%B4%E5%84%BF%E8%A2%AB%E5%AD%90%E8%92%99%E5%A4%B4%E5%BF%AB%E7%AA%92%E6%81%AF%E6%97%B6%E5%B0%8F%E7%8C%AB%E6%89%92%E9%86%92%E5%AE%9D%E5%A6%88" target="_blank" class="news-link">婴儿被子蒙头快窒息时小猫扒醒宝妈</a> [30] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%8F%B0%E9%A3%8E%E7%99%BD%E6%B5%B7%E8%B1%9A%E4%BA%8C%E6%AC%A1%E7%99%BB%E9%99%86%23&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">台风白海豚二次登陆</a> [30] <font color='grey'>- 19时56分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2603457" target="_blank" class="news-link">黄明昊和臻臻合伙开拖拉机</a> [30] <font color='grey'>- 19时56分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
