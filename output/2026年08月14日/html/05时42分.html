@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 12</p><p>生成时间: 2026-08-14 05:42:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">全部新闻</td>
+                <td class="count">12</td>
+                <td class="percentage">100.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3779397" target="_blank" class="news-link">闪迪定“超高”长期目标：FY2028-30营收中高双位数增长、毛利率80%，股价一度涨近20%</a> [8] <font color='grey'>- 05时42分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E6%9E%97%E8%AF%97%E6%A0%8B%20%E9%AD%94%E9%AC%BC%E8%B5%9B%E7%A8%8B&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">林诗栋 魔鬼赛程</a> [10] <font color='grey'>- 05时42分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%A9%E6%B4%A5%E6%B6%88%E9%98%B2%E5%8C%8D%E5%8C%90%E6%BB%A9%E6%B6%822%E5%85%AC%E9%87%8C%E6%95%91%E5%87%BA%E6%B8%B8%E5%AE%A2" target="_blank" class="news-link">天津消防匍匐滩涂2公里救出游客</a> [18] <font color='grey'>- 05时42分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2071322109830230575" target="_blank" class="news-link">2026WTT 瑞典大满贯男单第二轮，向鹏 1-3 不敌艾利克斯·勒布伦，如何评价这场比赛？</a> [18] <font color='grey'>- 05时42分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%AF%8D%E4%BA%B2%E6%8A%A5%E8%AD%A6%E8%B5%B6%E9%AB%98%E9%93%81%E5%9B%9E%E5%AE%B624%E5%B2%81%E5%84%BF%E5%AD%90%E5%B7%B2%E7%A6%BB%E4%B8%96%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">母亲报警赶高铁回家24岁儿子已离世</a> [20] <font color='grey'>- 05时42分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2071298072550889308" target="_blank" class="news-link">LPL2026 赛季第三赛段组内赛 TES 0:2 LGD，如何评价这场比赛？</a> [20] <font color='grey'>- 05时42分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%8E%8B%E6%9B%BC%E6%98%B1%E6%A8%AA%E6%89%AB%E6%99%8B%E7%BA%A7" target="_blank" class="news-link">王曼昱横扫晋级</a> [26] <font color='grey'>- 05时42分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%96%B0%E5%89%A7%E8%8A%B1%E5%BC%80%E9%94%A6%E7%BB%A3%E5%A5%BD%E7%9C%8B%E5%90%97" target="_blank" class="news-link">新剧花开锦绣好看吗</a> [27] <font color='grey'>- 05时42分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=UP%E4%B8%BB%E8%A7%A3%E8%AF%BB7%E6%9C%88%E5%B8%82%E5%9C%BA%E8%B0%81%E5%9C%A8%E6%93%8D%E7%9B%98" target="_blank" class="news-link">UP主解读7月市场谁在操盘</a> [28] <font color='grey'>- 05时42分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7673163065797427254/" target="_blank" class="news-link">英国17岁男孩胁迫117名女孩自残</a> [29] <font color='grey'>- 05时42分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%9A%AE%E5%8D%A1%E5%8F%98%E6%B3%B3%E6%B1%A0%E8%93%84%E6%B0%B4%E8%BD%BD%E4%BA%BA%E4%B8%8A%E8%B7%AF+%E4%BA%A4%E8%AD%A6%E5%9B%9E%E5%BA%94" target="_blank" class="news-link">皮卡变泳池蓄水载人上路 交警回应</a> [29] <font color='grey'>- 05时42分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%9C%9F%E8%80%B3%E5%85%B6%E4%B8%80%E8%A7%82%E5%85%89%E8%88%B9%E8%B5%B7%E7%81%AB+%E9%80%BE%E7%99%BE%E4%BA%BA%E8%B7%B3%E6%B5%B7%E9%81%BF%E9%99%A9" target="_blank" class="news-link">土耳其一观光船起火 逾百人跳海避险</a> [30] <font color='grey'>- 05时42分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
