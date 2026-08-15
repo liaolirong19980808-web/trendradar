@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 10</p><p>生成时间: 2026-08-16 02:26:41</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">全部新闻</td>
+                <td class="count">10</td>
+                <td class="percentage">100.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23Jennie%E4%B8%9C%E4%BA%AC%E9%9F%B3%E4%B9%90%E8%8A%82%23&amp;t=31&amp;band_rank=16&amp;Refer=top" target="_blank" class="news-link">Jennie东京音乐节</a> [16] <font color='grey'>- 02时26分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2071178348793786464" target="_blank" class="news-link">女子花 8 万做地下试管被推进简易房手术，多部门已介入，暴露出哪些监管盲区？如何斩断这条灰色产业链？</a> [19] <font color='grey'>- 02时26分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7674038646412034057/" target="_blank" class="news-link">谁给小沈阳化成梁龙了</a> [24] <font color='grey'>- 02时26分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%BC%A0%E6%9C%AC%E6%99%BA%E5%92%8C4%E6%AF%940%E5%A4%A7%E5%8B%92%E5%B8%83%E4%BC%A6" target="_blank" class="news-link">张本智和4比0大勒布伦</a> [25] <font color='grey'>- 02时26分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%99%BA%E5%85%83%E5%86%85%E9%83%A8%E7%AE%A1%E7%90%86%EF%BC%9A20%E4%BD%99%E4%B8%AA%E5%A4%A9%E6%89%8D%E8%A2%AB%E7%A5%9E%E7%A7%98%E9%9A%94%E7%A6%BB" target="_blank" class="news-link">智元内部管理：20余个天才被神秘隔离</a> [26] <font color='grey'>- 02时26分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%AE%98%E6%96%B9%E9%80%9A%E6%8A%A5%E6%99%BA%E6%AE%8B%E4%BA%BA%E5%91%98%E8%A2%AB%E6%8B%89%E5%8E%BB%E5%81%9A%E7%9C%BC%E9%83%A8%E6%89%8B%E6%9C%AF" target="_blank" class="news-link">官方通报智残人员被拉去做眼部手术</a> [27] <font color='grey'>- 02时26分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%94%90%E8%AF%84%E7%8E%8B%E8%80%85%E8%BE%85%E5%8A%A9%E8%8B%B1%E9%9B%84%E8%AE%BE%E8%AE%A1" target="_blank" class="news-link">锐评王者辅助英雄设计</a> [27] <font color='grey'>- 02时26分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7674214304463195674/" target="_blank" class="news-link">大V：小马科斯对华换上另一副面孔</a> [29] <font color='grey'>- 02时26分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%85%A5%E5%A2%83%E6%B8%B8%E5%A2%9E%E9%95%BF28%25+%E5%8D%97%E4%BA%AC%E5%87%AD%E4%BB%80%E4%B9%88%E5%9C%88%E7%B2%89%E5%85%A8%E7%90%83" target="_blank" class="news-link">入境游增长28% 南京凭什么圈粉全球</a> [29] <font color='grey'>- 02时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23C%E7%BD%97%E8%8B%A5%E7%A6%BB%E5%A9%9A%E4%B9%94%E6%B2%BB%E5%A8%9C%E6%AF%8F%E6%9C%88%E5%B0%86%E8%8E%B710%E4%B8%87%E6%AC%A7%E5%85%83%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">C罗若离婚乔治娜每月将获10万欧元</a> [29] <font color='grey'>- 02时26分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
