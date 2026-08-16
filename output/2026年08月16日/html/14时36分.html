@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 33</p><p>生成时间: 2026-08-16 14:36:35</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">全部新闻</td>
+                <td class="count">33</td>
+                <td class="percentage">100.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7673402891508908042/" target="_blank" class="news-link">朱镕基遗体后天火化 天安门将下半旗</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E9%81%97%E4%BD%9318%E6%97%A5%E7%81%AB%E5%8C%96" target="_blank" class="news-link">朱镕基同志遗体18日火化</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E9%81%97%E4%BD%9318%E6%97%A5%E7%81%AB%E5%8C%96%23&amp;t=31&amp;band_rank=1&amp;Refer=top" target="_blank" class="news-link">朱镕基同志遗体18日火化</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2611714" target="_blank" class="news-link">朱镕基同志遗体8月18日火化</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28357801&amp;amp;topic_name=%E8%BD%AC%E8%BD%AC%E7%9C%BC%E9%95%9C%E5%A5%B3%E5%8E%8B%E4%BB%B7%2C5090%E9%81%AD%E8%B4%B1%E5%8D%96" target="_blank" class="news-link">转转眼镜女压价,5090遭贱卖</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%83%BD%E7%81%AB%E8%81%8C%E4%B8%9A%E8%81%94%E8%B5%9B%E5%A4%8F%E5%AD%A3%E8%B5%9B" target="_blank" class="news-link">烽火职业联赛夏季赛</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7673784898582511657/" target="_blank" class="news-link">父子决裂40年儿子仍继承九成遗产</a> [6] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%84%BF%E4%BA%A7%E5%90%8E%E8%87%AA%E6%9D%80%E6%AF%8D%E4%BA%B2%E5%9B%9E%E5%BA%94%E8%A2%AB%E6%8C%87%E9%87%8D%E7%94%B7%E8%BD%BB%E5%A5%B3%23&amp;t=31&amp;band_rank=6&amp;Refer=top" target="_blank" class="news-link">女儿产后自杀母亲回应被指重男轻女</a> [6] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2072055535537316754" target="_blank" class="news-link">如何看待胖东来招聘刑释人员的公告被质疑处理不当？</a> [6] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%83%96%E4%B8%9C%E6%9D%A5%E5%B0%86%E9%97%AD%E9%97%A8%E8%80%81%E5%BA%9728%E4%B8%AA%E6%94%B6%E9%93%B6%E5%8F%A3%E6%8E%92%E9%95%BF%E9%BE%99" target="_blank" class="news-link">胖东来将闭门老店28个收银口排长龙</a> [7] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2071916942760342436" target="_blank" class="news-link">Anthropic Q2 营收逾 115 亿美元，同比增 14 倍，是何引爆了其业绩，大模型商业化成功了？</a> [7] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%85%B6%E5%AE%9E%E4%BA%BA%E6%9C%80%E5%A5%BD%E7%9A%84%E7%8A%B6%E6%80%81%E5%B0%B1%E6%98%AF%E9%94%80%E5%A3%B0%E5%8C%BF%E8%BF%B9&amp;t=31&amp;band_rank=8&amp;Refer=top" target="_blank" class="news-link">其实人最好的状态就是销声匿迹</a> [8] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2064434098815374163" target="_blank" class="news-link">为什么国内无法观看 IMAX 70mm 胶片版《奥德赛》？</a> [8] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7674178825118351386/" target="_blank" class="news-link">种菜养花能帮着防癌保护心血管</a> [10] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%B4%BA%E5%B3%BB%E9%9C%96%E7%BB%99%E4%B8%A5%E6%B5%A9%E7%BF%94%E7%9A%84%E7%A5%9D%E7%A6%8F%23&amp;t=31&amp;band_rank=11&amp;Refer=top" target="_blank" class="news-link">贺峻霖给严浩翔的祝福</a> [11] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7674458401706983460/" target="_blank" class="news-link">新加坡老人轻拍小女孩头部被家长撂倒</a> [12] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33791886" target="_blank" class="news-link">马上评｜医院“揽客”岂能突破底线</a> [12] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E7%AD%89%E4%BA%86%E5%A5%BD%E4%B9%85%E7%9A%84%E5%A6%86%E9%80%A0%E6%98%AF%E9%81%97%E7%85%A7&amp;t=31&amp;band_rank=12&amp;Refer=top" target="_blank" class="news-link">等了好久的妆造是遗照</a> [12] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2609902" target="_blank" class="news-link">这世界大得让爱人很难不旅游</a> [13] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33791922" target="_blank" class="news-link">民盟河南省委会通报：收到的一些社情民意信息存在明显AI生成痕迹</a> [14] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E9%AD%8F%E7%AC%91%E5%8C%85%E6%B4%81%E4%BB%AA%E5%8E%9A%E6%9C%AC%20%E6%88%91%E4%B8%8D%E5%B0%B1%E4%B8%8D%E6%98%AFNPC&amp;t=31&amp;band_rank=14&amp;Refer=top" target="_blank" class="news-link">魏笑包洁仪厚本 我不就不是NPC</a> [14] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33785629" target="_blank" class="news-link">降价未能换来销量、市场份额跌至两成，合资汽车品牌出路何在？</a> [15] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%87%A1%E4%BA%BA%E4%BF%AE%E4%BB%99%E4%BC%A0187%E9%9B%86%E9%80%90%E5%B8%A7%E8%A7%A3%E6%9E%90" target="_blank" class="news-link">凡人修仙传187集逐帧解析</a> [15] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2068587429079020879" target="_blank" class="news-link">在古代还没有毒品概念的时候，天然成瘾植物为何没有成为顶级香料？</a> [15] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7673483435407999039/" target="_blank" class="news-link">美方证实林肯号航母将被替换</a> [16] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7674469434366656553/" target="_blank" class="news-link">印度劫匪假装问路抢老妇人金项链</a> [17] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BD%95%E7%A9%97%E5%A6%8A%E5%A8%A0%E7%BA%B9%23&amp;t=31&amp;band_rank=17&amp;Refer=top" target="_blank" class="news-link">何穗妊娠纹</a> [17] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7674436527586492470/" target="_blank" class="news-link">孙楠回应体重只有128斤</a> [20] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%97%A5%E6%9C%AC%E6%B0%91%E4%BC%97%E8%B4%A8%E9%97%AE%EF%BC%9A%E4%BE%9B%E5%A5%89%E6%88%98%E7%8A%AF%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D" target="_blank" class="news-link">日本民众质问：供奉战犯是什么意思</a> [23] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%84%BF%E6%8A%91%E9%83%81%E8%87%AA%E6%9D%80%E6%AF%8D%E4%BA%B2%E7%A7%B08.8%E4%B8%87%E5%BD%A9%E7%A4%BC%E5%A4%AA%E5%B0%91%23&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">女儿抑郁自杀母亲称8.8万彩礼太少</a> [26] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%BF%87%E6%95%8F%E6%80%A7%E9%BC%BB%E7%82%8E+%E6%89%93%E5%8D%95%E6%8A%97" target="_blank" class="news-link">过敏性鼻炎 打单抗</a> [28] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E6%88%91%E4%BB%AC%E7%9A%84%E5%B0%91%E5%B9%B4%E6%97%B6%E4%BB%A32%E4%BA%91%E5%8C%85%E5%9C%BA&amp;t=31&amp;band_rank=28&amp;Refer=top" target="_blank" class="news-link">我们的少年时代2云包场</a> [28] <font color='grey'>- 14时36分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%8E%9F%E6%9D%A5%E8%96%9B%E7%94%84%E7%8F%A0%E5%87%8C%E7%8E%B2%E5%90%8D%E5%9C%BA%E9%9D%A2%E6%A0%B9%E6%9C%AC%E6%B2%A1%E6%BC%94" target="_blank" class="news-link">原来薛甄珠凌玲名场面根本没演</a> [29] <font color='grey'>- 14时36分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
