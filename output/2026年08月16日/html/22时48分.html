@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 26</p><p>生成时间: 2026-08-16 22:48:40</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">全部新闻</td>
+                <td class="count">26</td>
+                <td class="percentage">100.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%B5%B7%E9%B2%9C%E4%BB%B7%E6%A0%BC%E6%9C%89%E6%9C%9B%E5%9B%9E%E8%90%BD30%25" target="_blank" class="news-link">海鲜价格有望回落30%</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%9B%9B%E4%BB%A3%E8%B7%B3Attention%23&amp;t=31&amp;band_rank=2&amp;Refer=top" target="_blank" class="news-link">四代跳Attention</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28357861&amp;amp;topic_name=%E5%AF%BF%E5%8F%B8%E9%83%8E%E8%A2%AB%E6%9B%9D%E5%B0%8F%E5%AD%A9%E5%85%89%E8%84%9A%E8%B8%A9%E6%B0%B4%E9%BE%99%E5%A4%B4" target="_blank" class="news-link">寿司郎被曝小孩光脚踩水龙头</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B916%E9%97%AE%E5%90%8E+%E7%89%B9%E5%A5%A5%E5%A4%9A%E7%BD%97%E7%9A%84%E8%B7%AF%E5%8F%AA%E5%89%A9%E4%B8%80%E6%9D%A1" target="_blank" class="news-link">中方16问后 特奥多罗的路只剩一条</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33794336" target="_blank" class="news-link">甘肃一高校披露：省内普通类文史缩招近两成，生源质量不降反升</a> [13] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%B8%81%E7%A8%8B%E9%91%AB%E4%BB%8E%E4%B8%8D%E9%81%AE%E6%8E%A9%E8%87%AA%E5%B7%B1%E5%86%9C%E6%9D%91%E5%AE%B6%E5%BA%AD%E8%83%8C%E6%99%AF%23&amp;t=31&amp;band_rank=13&amp;Refer=top" target="_blank" class="news-link">丁程鑫从不遮掩自己农村家庭背景</a> [13] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7673442612552040490/" target="_blank" class="news-link">哈尔滨把街道当自己家客厅拖</a> [15] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%BC%A0%E6%9F%8F%E8%8A%9D%E6%9C%89%E7%A7%8D%E7%BB%8F%E6%B5%8E%E4%B8%8A%E8%A1%8C%E7%9A%84%E7%BE%8E&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">张柏芝有种经济上行的美</a> [15] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=30%E7%BE%8E%E5%85%831%E5%B0%8F%E6%97%B6+%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B8%8A%E9%97%A8%E5%81%9A%E4%BF%9D%E6%B4%81" target="_blank" class="news-link">30美元1小时 机器人上门做保洁</a> [16] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_33795018" target="_blank" class="news-link">“如是书院”违法经营已被关停，赖某明等3人虐待学员被刑拘</a> [17] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E7%8E%B0%E5%9C%A8%E7%9A%84%E5%B0%8F%E5%AD%A6%E7%94%9F%E9%83%BD%E8%BF%9B%E5%8C%96%E6%88%90%E8%BF%99%E6%A0%B7%E4%BA%86%E5%90%97&amp;t=31&amp;band_rank=17&amp;Refer=top" target="_blank" class="news-link">现在的小学生都进化成这样了吗</a> [17] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2612191" target="_blank" class="news-link">你嫣然的一笑如含苞待放</a> [17] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2069337193563398581" target="_blank" class="news-link">如何看待起点现在「一棒子打死 AI」，一点都不准用的行为？</a> [18] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/386602005" target="_blank" class="news-link">人类从古至今有没有一本书的智慧跟境界超过道德经？</a> [19] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7674224560451682346/" target="_blank" class="news-link">F勒布伦晋级WTT瑞典大满贯决赛</a> [20] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7674595161468636682/" target="_blank" class="news-link">黄金还会二次暴涨吗</a> [21] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%AE%E8%A7%86%E8%B0%83%E6%9F%A5%E6%98%8E%E4%BB%A3%E5%8F%A4%E5%9F%8E%E5%A2%99%E2%80%9C%E6%8B%86%E6%97%A7%E5%BB%BA%E6%96%B0%E2%80%9D" target="_blank" class="news-link">央视调查明代古城墙“拆旧建新”</a> [22] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BC%96%E8%88%9E%E6%9D%A8%E5%8D%9A%E6%96%87%23&amp;t=31&amp;band_rank=22&amp;Refer=top" target="_blank" class="news-link">编舞杨博文</a> [22] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7673817279808900671/" target="_blank" class="news-link">吴艳妮全锦赛三连冠+六冠王</a> [25] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%9D%91%E6%B0%91%E7%A7%B0%E8%A5%BF%E5%B9%B3%E5%91%BD%E6%A1%88%E8%A2%AB%E5%AE%B3%E4%BA%BA%E4%B8%8D%E6%98%AF%E6%9D%91%E9%9C%B8%23&amp;t=31&amp;band_rank=25&amp;Refer=top" target="_blank" class="news-link">村民称西平命案被害人不是村霸</a> [25] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7674454798841839662/" target="_blank" class="news-link">中国U17女足5-0大胜皇马U17女足</a> [27] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%89%8E%E8%9F%B9%E5%A5%B3%E5%B7%A5%E4%B8%A4%E4%B8%89%E7%A7%92%E5%88%B6%E6%9C%8D%E6%A2%AD%E5%AD%90%E8%9F%B9" target="_blank" class="news-link">扎蟹女工两三秒制服梭子蟹</a> [27] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23TF%E5%9B%9B%E4%BB%A3vs%E6%97%B6%E4%BB%A3%E5%B0%91%E5%B9%B4%E5%9B%A2%E5%88%BA%E8%88%9E%E5%8F%B0%23&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">TF四代vs时代少年团刺舞台</a> [27] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7673937315869409343/" target="_blank" class="news-link">媒体：中方16问后菲防长路只剩一条</a> [29] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%90%E4%B8%8E%E8%80%81%E5%A9%86%E5%90%B5%E6%9E%B6%E8%B7%B3%E6%B1%9F%E7%AC%AC%E4%BA%8C%E5%A4%A9%E5%8F%88%E6%B8%B8%E5%9B%9E%E6%9D%A5" target="_blank" class="news-link">男子与老婆吵架跳江第二天又游回来</a> [29] <font color='grey'>- 22时48分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%237%E5%90%8D%E5%8E%BF%E5%A7%94%E5%B8%B8%E5%A7%94%E5%9C%A8%E5%9C%9F%E5%9D%AF%E6%88%BF%E4%B8%8A%E7%8F%AD%23&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">7名县委常委在土坯房上班</a> [30] <font color='grey'>- 22时48分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
