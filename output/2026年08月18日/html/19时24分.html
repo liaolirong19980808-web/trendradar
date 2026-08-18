@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 22</p><p>生成时间: 2026-08-18 19:24:30</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">全部新闻</td>
+                <td class="count">22</td>
+                <td class="percentage">100.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BD%8F%E6%88%BF%E5%85%AC%E7%A7%AF%E9%87%91%E6%96%B0%E6%94%BF%E6%9D%A5%E4%BA%86%23&amp;t=31&amp;band_rank=5&amp;Refer=top" target="_blank" class="news-link">住房公积金新政来了</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2614699" target="_blank" class="news-link">新闻联播</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=Zeus%E8%AF%B4%E6%9C%9F%E5%BE%85%E5%92%8CTheShy%E5%86%8D%E4%BA%A4%E6%89%8B" target="_blank" class="news-link">Zeus说期待和TheShy再交手</a> [6] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%85%AC%E7%A7%AF%E9%87%91%E6%9D%A1%E4%BE%8B%E4%BF%AE%E6%94%B9&amp;t=31&amp;band_rank=6&amp;Refer=top" target="_blank" class="news-link">公积金条例修改</a> [6] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%A4%96%E4%BA%A4%E9%83%A8%E4%B8%8D%E5%86%8D%E7%A7%B0%E9%9D%96%E5%9B%BD%E7%A5%9E%E7%A4%BE%E7%9B%B4%E6%8E%A5%E5%8F%AB%E6%88%98%E7%8A%AF%E7%A5%9E%E7%A4%BE&amp;t=31&amp;band_rank=7&amp;Refer=top" target="_blank" class="news-link">外交部不再称靖国神社直接叫战犯神社</a> [7] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%8C%BB%E5%B8%88%E8%8A%82%E5%8C%BB%E7%94%9F%E6%95%99%E4%BD%A0%E4%B8%8A%E7%8F%AD%E6%91%B8%E9%B1%BC" target="_blank" class="news-link">医师节医生教你上班摸鱼</a> [8] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%A7%9F%E6%88%BF%E6%8F%90%E5%8F%96%E5%85%AC%E7%A7%AF%E9%87%91%E5%8F%96%E6%B6%88%E6%94%B6%E5%85%A5%E6%AF%94%E4%BE%8B%E9%97%A8%E6%A7%9B" target="_blank" class="news-link">租房提取公积金取消收入比例门槛</a> [9] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2073094932298822565" target="_blank" class="news-link">官方调整住房公积金政策，租房提取公积金取消收入比例门槛，装修自住住房可提取公积金，哪些变化值得关注？</a> [10] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%88%98%E4%BA%A6%E8%8F%B2%E6%95%B4%E4%B8%AA%E5%9B%A2%E9%98%9F%E9%83%BD%E7%A9%BF%E9%BB%91%E8%89%B2%23&amp;t=31&amp;band_rank=11&amp;Refer=top" target="_blank" class="news-link">刘亦菲整个团队都穿黑色</a> [11] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E8%BD%BB%E4%BC%A4%E4%BA%8C%E7%BA%A7%E5%B7%B2%E7%BB%8F%E5%BE%88%E4%B8%A5%E9%87%8D%E4%BA%86&amp;t=31&amp;band_rank=12&amp;Refer=top" target="_blank" class="news-link">轻伤二级已经很严重了</a> [12] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2614688" target="_blank" class="news-link">“培训机构失火致多人伤亡”不实</a> [12] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E8%99%9E%E4%B9%A6%E6%AC%A3Esther%20House%E4%B8%8A%E7%BA%BF&amp;t=31&amp;band_rank=16&amp;Refer=top" target="_blank" class="news-link">虞书欣Esther House上线</a> [16] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2614592" target="_blank" class="news-link">潮汕海上餐厅鲜到上头</a> [16] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%99%BE%E5%BA%A6%E5%8F%91%E5%B8%832026%E5%B9%B4%E7%AC%AC%E4%BA%8C%E5%AD%A3%E5%BA%A6%E8%B4%A2%E6%8A%A5" target="_blank" class="news-link">百度发布2026年第二季度财报</a> [20] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%8B%B9%E6%9E%9C%E5%85%AC%E5%B8%8316%E6%AC%BE%E8%AE%BE%E5%A4%87%E5%B0%86%E5%81%9C%E6%AD%A2%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%96%B0%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">苹果公布16款设备将停止系统更新</a> [20] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2614681" target="_blank" class="news-link">绿泡泡写给00后的一封信</a> [20] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2072261461347509905" target="_blank" class="news-link">抛开工资不谈，请问你每天坚持上班的目的是什么？</a> [20] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%81%87%E7%BB%93%E5%A9%9A%E8%AF%81%E5%88%B6%E5%94%AE%E7%81%B0%E4%BA%A7%E6%9B%9D%E5%85%89%23&amp;t=31&amp;band_rank=22&amp;Refer=top" target="_blank" class="news-link">假结婚证制售灰产曝光</a> [22] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%BF%83%E8%A1%80%E6%9D%A5%E6%BD%AE%E4%B8%8B%E5%8D%95%E5%B0%8F%E5%AE%B6%E7%94%B5+%E5%A6%82%E4%BB%8A%E5%85%A8%E5%91%98%E5%90%83%E7%81%B0" target="_blank" class="news-link">心血来潮下单小家电 如今全员吃灰</a> [28] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E8%BF%98%E5%AF%B9%E4%BA%BA%E6%B0%91%E5%A4%A7%E4%BC%9A%E5%A0%82%E5%BF%B5%E5%BF%B5%E4%B8%8D%E5%BF%98" target="_blank" class="news-link">特朗普还对人民大会堂念念不忘</a> [29] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E6%BE%B3%E6%96%B9%E6%89%93%E5%8E%8B%E6%95%99%E8%82%B2%E7%A7%91%E7%A0%94%E5%90%88%E4%BD%9C" target="_blank" class="news-link">外交部回应澳方打压教育科研合作</a> [29] <font color='grey'>- 19时24分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%99%88%E9%A3%9E%E5%AE%87%E5%BC%A0%E5%AD%90%E6%9E%AB%E6%96%B0%E5%89%A7%E5%90%8C%E6%A1%86%23&amp;t=31&amp;band_rank=30&amp;Refer=top" target="_blank" class="news-link">陈飞宇张子枫新剧同框</a> [30] <font color='grey'>- 19时24分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
