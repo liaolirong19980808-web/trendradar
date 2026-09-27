@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 26</p><p>生成时间: 2026-09-28 07:14:59</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">全部新闻</td>
+                <td class="count">26</td>
+                <td class="percentage">100.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%92%8C%E6%83%85%E7%BB%AA%E4%B8%8D%E7%A8%B3%E5%AE%9A%E7%9A%84%E4%BA%BA%E7%9B%B8%E5%A4%84%E6%98%AF%E6%8A%98%E7%A3%A8&amp;t=31&amp;band_rank=2&amp;Refer=top" target="_blank" class="news-link">和情绪不稳定的人相处是折磨</a> <font color='red'><strong>[2]</strong></font> <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%BC%A0%E9%9B%AA%E6%9C%BA%E8%BD%A6%E5%9B%A2%E9%98%9F%E6%84%8F%E5%A4%A7%E5%88%A9%E8%A2%AB%E7%9B%97" target="_blank" class="news-link">张雪机车团队意大利被盗</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%B0%8F%E7%8C%AB%E5%87%AD%E7%94%B5%E5%8A%A8%E8%BD%A6%E5%A3%B0%E9%A2%84%E5%88%A4%E4%B8%BB%E4%BA%BA%E4%B8%8B%E7%8F%AD" target="_blank" class="news-link">小猫凭电动车声预判主人下班</a> [7] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%AD%99%E9%A2%96%E8%8E%8E%20%E9%9A%BE%E5%86%8D%E6%88%98%E4%BA%9A%E8%BF%90&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">孙颖莎 难再战亚运</a> [10] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [财联社热门] <a href="https://www.cls.cn/detail/2493463" target="_blank" class="news-link">长假前后重点关注方向有哪些？短期市场如何演绎？十大券商策略来了</a> [12] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2081150322496610546" target="_blank" class="news-link">集采药都很劣质吗？我能不能加钱用更好的药？</a> [12] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E6%85%95%E5%85%B0%E5%A4%A7%E5%86%9B%E8%BF%9B%E6%94%BB%E9%BB%84%E9%BE%99%E5%B1%B1" target="_blank" class="news-link">慕兰大军进攻黄龙山</a> [13] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2087238239216034395" target="_blank" class="news-link">亚运会乒乓球混双决赛，王楚钦 / 孙颖莎 0-4 林诗栋 / 蒯曼，国乒包揽亚运混双金银牌，如何评价本场比赛？</a> [14] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E8%83%96%E4%B8%9C%E6%9D%A5%E4%B9%9D%E6%88%90%E9%94%80%E5%94%AE%E9%A2%9D%E9%9D%A0%E5%A4%96%E5%9C%B0%E6%B8%B8%E5%AE%A2&amp;t=31&amp;band_rank=16&amp;Refer=top" target="_blank" class="news-link">胖东来九成销售额靠外地游客</a> [16] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E6%9C%893%E9%83%A8%E5%BE%85%E6%92%AD%E5%89%A7%23&amp;t=31&amp;band_rank=17&amp;Refer=top" target="_blank" class="news-link">肖战有3部待播剧</a> [17] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%8B%BE%E8%8D%9221%E5%B9%B4%E7%94%B7%E5%AD%90%E9%A2%86%E5%88%B042%E4%B8%87%E5%85%BB%E8%80%81%E9%87%91%23&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">拾荒21年男子领到42万养老金</a> [18] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2669694" target="_blank" class="news-link">中秋晒晒我家的玉兔</a> [18] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=12306%E5%9B%9E%E5%BA%94%E4%B8%BA%E6%8A%A2%E9%AB%98%E9%93%81%E7%A5%A8%E8%BF%9E%E4%B8%8B5%E4%B8%AA%E5%80%99%E8%A1%A5%E8%AE%A2%E5%8D%95" target="_blank" class="news-link">12306回应为抢高铁票连下5个候补订单</a> [19] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34157490" target="_blank" class="news-link">云南一男子多次讨薪未果潜入雇主家盗走六千元“抵工资”，涉嫌盗窃被刑拘</a> [19] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%A8%8B%E9%9D%96%E6%B7%87%E8%B0%88%E5%AD%99%E9%A2%96%E8%8E%8E%E4%BD%93%E5%8A%9B%E9%80%8F%E6%94%AF%23&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">程靖淇谈孙颖莎体力透支</a> [20] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2670135" target="_blank" class="news-link">秋天自然要折桂花</a> [22] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%BD%97%E6%B0%B8%E6%B5%A9%E8%BF%9E%E7%BB%AD3%E5%A4%A9%E5%9B%9E%E5%BA%94%E5%94%AE%E5%8D%96%E5%8A%A3%E8%B4%A8%E6%BA%9C%E6%BA%9C%E5%87%B3%23&amp;t=31&amp;band_rank=23&amp;Refer=top" target="_blank" class="news-link">罗永浩连续3天回应售卖劣质溜溜凳</a> [23] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%AD%99%E5%8D%83&amp;t=31&amp;band_rank=24&amp;Refer=top" target="_blank" class="news-link">孙千</a> [24] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2670454" target="_blank" class="news-link">不同人生阶段时的中秋</a> [24] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2669586" target="_blank" class="news-link">我不是大师第九集封神</a> [25] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%BE%B7%E5%9B%BD%E7%88%86%E5%86%B70%E6%AF%941%E5%B8%8C%E8%85%8A&amp;t=31&amp;band_rank=27&amp;Refer=top" target="_blank" class="news-link">德国爆冷0比1希腊</a> [27] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%88%98%E6%AC%A2%E7%BB%8F%E5%85%B8%E6%AD%8C%E6%9B%B2%E5%90%88%E9%9B%86" target="_blank" class="news-link">刘欢经典歌曲合集</a> [29] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%AD%99%E9%A2%96%E8%8E%8E%E8%B5%9B%E5%90%8E%E5%92%8C%E6%95%99%E7%BB%83%E5%90%90%E6%A7%BD%E5%AF%B9%E6%89%8B%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">孙颖莎赛后和教练吐槽对手</a> [29] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2667677" target="_blank" class="news-link">刘欢歌曲回顾</a> [29] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%BF%99%E5%BA%A7%E2%80%9C%E7%89%B9%E6%9C%97%E6%99%AE%E5%A0%A1%E2%80%9D%E9%80%A0%E4%BB%B7%E9%AB%98%E8%BE%BE44%E4%BA%BF%E7%BE%8E%E5%85%83" target="_blank" class="news-link">这座“特朗普堡”造价高达44亿美元</a> [30] <font color='grey'>- 07时14分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E5%90%AF%E7%A8%8B%E7%BE%8E%E5%9B%BD%E7%9C%8BS16%20Vlog" target="_blank" class="news-link">启程美国看S16 Vlog</a> [30] <font color='grey'>- 07时14分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
