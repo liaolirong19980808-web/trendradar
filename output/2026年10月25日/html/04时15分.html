@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 40</p><p>生成时间: 2026-10-25 04:15:12</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">全部新闻</td>
+                <td class="count">40</td>
+                <td class="percentage">100.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=LOS%20G2" target="_blank" class="news-link">G2战胜LOS S16瑞士轮</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%B8%9D%E6%98%86%E9%AB%98%E9%93%81%E5%85%A8%E7%BA%BF%E9%93%BA%E8%BD%A8%E5%AE%8C%E6%88%90%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">渝昆高铁全线铺轨完成</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=MKOI%20CFO" target="_blank" class="news-link">MKOI战胜CFO S16瑞士轮</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23TES%E6%8B%BF%E4%B8%8BLPL%E5%9C%A8S16%E9%A6%96%E8%83%9C%23&amp;t=31&amp;band_rank=4&amp;Refer=top" target="_blank" class="news-link">TES拿下LPL在S16首胜</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2710791" target="_blank" class="news-link">KC战胜AL</a> [6] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2097479998525518163" target="_blank" class="news-link">S16 瑞士轮 TES 1:0 AL，如何评价这场比赛？</a> [6] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=TES%20AL" target="_blank" class="news-link">TES战胜AL S16瑞士轮</a> [7] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9C%80%E9%AB%98%E6%B3%95%E6%8A%AB%E9%9C%B2%E2%80%9C%E5%8C%97%E5%A4%A7%E5%8C%85%E4%B8%BD%E6%A1%88%E2%80%9D%E7%BB%86%E8%8A%82" target="_blank" class="news-link">最高法披露“北大包丽案”细节</a> [8] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23LPL%E4%B8%8ELCK%E7%91%9E%E5%A3%AB%E8%BD%AE%E7%8E%B0%E7%8A%B6%23&amp;t=31&amp;band_rank=8&amp;Refer=top" target="_blank" class="news-link">LPL与LCK瑞士轮现状</a> [8] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3784381" target="_blank" class="news-link">从“稳赚不赔”到“两害相权”，AI投资逻辑彻底变了！</a> [10] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23TES%E7%91%9E%E5%A3%AB%E8%BD%AELPL%E5%86%85%E6%88%98%E4%BF%9D%E6%8C%81%E5%85%A8%E8%83%9C%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">TES瑞士轮LPL内战保持全胜</a> [10] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2097291551575749628" target="_blank" class="news-link">为什么 chatgpt 和 claude 防不住蒸馏？</a> [12] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E5%8A%9E%E5%A9%9A%E7%A4%BC%E7%94%9F%E5%A5%B3%E4%B8%8D%E9%A2%86%E8%AF%81+%E7%94%B7%E6%96%B9%E8%AF%89%E5%85%B6%E9%AA%97%E5%A9%9A" target="_blank" class="news-link">女子办婚礼生女不领证 男方诉其骗婚</a> [13] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=TES%E6%88%98%E8%83%9CAL%E5%8F%96%E9%A6%96%E8%83%9C&amp;t=31&amp;band_rank=13&amp;Refer=top" target="_blank" class="news-link">TES战胜AL取首胜</a> [13] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/664561864" target="_blank" class="news-link">有哪些让你觉得醍醐灌顶的顶级思维呢？</a> [14] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%95%9C%E5%A4%B4%E8%BD%AC%E5%88%B0%E6%9D%8E%E6%98%80%E9%94%90%E7%9C%9F%E7%9A%84%E5%A5%BD%E6%B8%85%E7%A7%80%E5%B8%85%E6%B0%94%E5%95%8A%23&amp;t=31&amp;band_rank=15&amp;Refer=top" target="_blank" class="news-link">镜头转到李昀锐真的好清秀帅气啊</a> [15] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34325596" target="_blank" class="news-link">言短意长｜肯德基员工就不能投诉胖哥俩了？</a> [16] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%AF%8D%E4%BA%B2%E6%82%A3%E7%97%85+124%E4%B8%87%E8%A2%AB%E5%A5%B3%E5%84%BF%E5%A5%B3%E5%A9%BF%E6%93%85%E8%87%AA%E5%8F%96%E8%B5%B0" target="_blank" class="news-link">母亲患病 124万被女儿女婿擅自取走</a> [17] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23al%E5%86%8D%E8%B4%A5%E5%B0%B1%E6%AD%A2%E6%AD%A516%E5%BC%BA%23&amp;t=31&amp;band_rank=17&amp;Refer=top" target="_blank" class="news-link">al再败就止步16强</a> [17] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2711407" target="_blank" class="news-link">单更的嫁金钗最适合深扒</a> [17] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%89%E4%BB%A3%E9%B9%BF%E4%BA%BA%E6%B7%B1%E6%89%92%E7%9B%9B%E8%89%BE%E6%95%AC%E7%88%B6%E6%AF%8D3.0" target="_blank" class="news-link">三代鹿人深扒盛艾敬父母3.0</a> [19] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34325583" target="_blank" class="news-link">八国外长“史无前例”齐聚土耳其，反对对伊朗采取军事行动</a> [20] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2007999040508412951" target="_blank" class="news-link">请问为啥网上很多人说大众高尔夫好开？</a> [20] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%B8%83%E6%97%AC%E5%A4%A7%E7%88%B7%E7%94%A8%E6%89%8B%E5%9B%9E%E6%94%B6%E7%81%AB%E7%AE%AD" target="_blank" class="news-link">七旬大爷用手回收火箭</a> [21] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9C%88%E4%B9%8B%E6%9A%97%E9%9D%A2%E5%8F%91%E5%B8%83%E6%9C%80%E5%BC%BA%E6%A8%A1%E5%9E%8BKimi+K3.1+Pro" target="_blank" class="news-link">月之暗面发布最强模型Kimi K3.1 Pro</a> [22] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=369%E7%8B%BC%E6%AF%8D%E4%B8%89%E5%88%87Hope&amp;t=31&amp;band_rank=24&amp;Refer=top" target="_blank" class="news-link">369狼母三切Hope</a> [24] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E8%92%AF%E6%9B%BC3%E6%AF%941%E6%A1%A5%E6%9C%AC%E5%B8%86%E4%B9%83%E9%A6%99" target="_blank" class="news-link">蒯曼3比1桥本帆乃香</a> [25] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E4%BF%84%E4%B9%8C%E5%86%B2%E7%AA%81%E5%A4%A7%E7%BB%93%E5%B1%80%E8%A6%81%E6%9D%A5%E4%BA%86%E5%90%97" target="_blank" class="news-link">俄乌冲突大结局要来了吗</a> [25] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2710426" target="_blank" class="news-link">全员严肃品鉴尚公主</a> [25] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7699431761780359222/" target="_blank" class="news-link">上海静安寺对面现iPhone Duo雕塑</a> [26] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=AL%E5%AF%B9%E6%88%98TES&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">AL对战TES</a> [26] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2710868" target="_blank" class="news-link">现场观赛S16瑞士轮</a> [26] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E9%94%90%E8%AF%84S16%E7%91%9E%E5%A3%AB%E8%BD%AELPL%E9%A6%96%E8%BD%AE%E5%85%A8%E8%B4%A5" target="_blank" class="news-link">锐评S16瑞士轮LPL首轮全败</a> [27] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=Creme%E6%B4%9B%E5%85%8B%E5%9B%A2%E6%88%98%E7%8B%82%E7%A0%8D%E5%9B%9B%E6%9D%80" target="_blank" class="news-link">Creme洛克团战狂砍四杀</a> [28] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7700179252926221874/" target="_blank" class="news-link">小伙手搓飞行滑板打破多少世俗偏见</a> [29] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%96%B0%E5%8F%B0%E9%A3%8E%E7%83%9F%E8%8A%B1%E7%94%9F%E6%88%90" target="_blank" class="news-link">新台风烟花生成</a> [29] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%AE%B8%E9%A3%9E%E5%8E%89%E5%A8%9C%E5%AF%B9%E5%B3%99%E8%83%8C%E5%88%BA%E4%BA%8B%E4%BB%B6%E5%A7%8B%E6%9C%AB" target="_blank" class="news-link">许飞厉娜对峙背刺事件始末</a> [29] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%B2%88%E9%98%B3%E4%B8%80%E5%95%86%E5%9C%BA%E4%BF%9D%E6%B4%81%E5%A4%A7%E5%8F%94%E5%87%AD%E9%AB%98%E9%A2%9C%E5%80%BC%E5%87%BA%E5%9C%88%23&amp;t=31&amp;band_rank=29&amp;Refer=top" target="_blank" class="news-link">沈阳一商场保洁大叔凭高颜值出圈</a> [29] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7699472218053066815/" target="_blank" class="news-link">泽连斯基含泪谈俄乌冲突：我夜不能寐</a> [30] <font color='grey'>- 04时15分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%A7%A3%E6%9E%90LPL%E5%9B%9B%E6%94%AF%E6%88%98%E9%98%9F%E5%A4%B1%E5%88%A9%E5%8E%9F%E5%9B%A0" target="_blank" class="news-link">解析LPL四支战队失利原因</a> [30] <font color='grey'>- 04时15分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
