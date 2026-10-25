@@ -1,0 +1,79 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 30</p><p>生成时间: 2026-10-26 07:26:51</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">全部新闻</td>
+                <td class="count">30</td>
+                <td class="percentage">100.0%</td>
+                <td class="titles"><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=LYON%20GEN" target="_blank" class="news-link">LYON vs GEN S16瑞士轮</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8xWa5UH3Rxr" target="_blank" class="news-link">武契奇承认败选</a> <font color='red'><strong>[1]</strong></font> <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E9%87%91%E7%89%8C%E9%97%AA%E8%80%80%E8%B5%9B%E5%9C%BA%E4%BA%BA%E7%94%9F%E4%B8%8D%E6%83%A7%E6%AE%8B%E7%BC%BA%23&amp;t=31&amp;band_rank=3&amp;Refer=top" target="_blank" class="news-link">金牌闪耀赛场人生不惧残缺</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E8%82%96%E6%88%98%E5%AF%B9%E5%A7%9C%E5%A6%8D%E6%92%92%E5%A8%87%23&amp;t=31&amp;band_rank=4&amp;Refer=top" target="_blank" class="news-link">肖战对姜妍撒娇</a> <font color='red'><strong>[4]</strong></font> <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7700590307414376467/" target="_blank" class="news-link">院士：主动是健康最可靠的路径</a> [6] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8xWK18ruWA1" target="_blank" class="news-link">中印边境新发生了什么？印度两派激烈内讧</a> [6] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%B8%A9%E7%91%9E%E5%8D%9A%E8%A2%81%E5%8A%B1%E5%B2%91%E6%8A%97%E8%AE%AE%E9%A2%81%E5%A5%96%E6%94%BE%E9%94%99%E5%9B%BD%E6%97%97%23&amp;t=31&amp;band_rank=8&amp;Refer=top" target="_blank" class="news-link">温瑞博袁励岑抗议颁奖放错国旗</a> [8] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E8%92%99%E5%8F%A4%E5%9B%BD%E5%AF%B9%E7%81%AB%E7%81%BE%E5%90%AF%E5%8A%A8%E8%BF%BD%E8%B4%A3%E8%AF%84%E4%BC%B0" target="_blank" class="news-link">蒙古国对火灾启动追责评估</a> [9] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [凤凰网] <a href="https://news.ifeng.com/c/8xWSIzUs9fI" target="_blank" class="news-link">蒙古国考虑就草原火灾向涉事日企索赔</a> [10] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E5%B7%B4%E8%90%A81%E6%AF%942%E7%9A%87%E9%A9%AC%23&amp;t=31&amp;band_rank=10&amp;Refer=top" target="_blank" class="news-link">巴萨1比2皇马</a> [10] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_34329226" target="_blank" class="news-link">媒体：把自身罪行安到中国人头上，日本“神剧”为谁招魂</a> [14] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E5%BC%BA%E7%83%88%E5%BB%BA%E8%AE%AE%E7%BB%99%E5%AE%B6%E9%87%8C%E8%80%81%E4%BA%BA%E7%94%A8%E8%8B%B9%E6%9E%9C%E6%89%8B%E6%9C%BA&amp;t=31&amp;band_rank=14&amp;Refer=top" target="_blank" class="news-link">强烈建议给家里老人用苹果手机</a> [14] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/373527883" target="_blank" class="news-link">各位心目中的世界十大城市是哪些？</a> [14] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [澎湃新闻] <a href="https://m.thepaper.cn/newsDetail_forward_2006977" target="_blank" class="news-link">上海书评周刊</a> [16] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E5%AE%B6%E5%BA%AD%E8%A7%84%E6%A8%A1%E6%8C%81%E7%BB%AD%E7%BC%A9%E5%B0%8F%23&amp;t=31&amp;band_rank=18&amp;Refer=top" target="_blank" class="news-link">我国家庭规模持续缩小</a> [18] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/2097021346526001046" target="_blank" class="news-link">你有 5 分钟把一个回形针藏在家里，侦探有 24 小时来找，找不到就给你 1 万美元，你会藏在哪里？</a> [18] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E4%B8%AD%E5%B9%B4%E5%A4%B1%E4%B8%9A%E5%86%B2%E6%B3%95%E8%80%83%E5%81%9A%E5%BE%8B%E5%B8%88%E7%8E%B0%E5%AE%9E%E5%90%97&amp;t=31&amp;band_rank=20&amp;Refer=top" target="_blank" class="news-link">中年失业冲法考做律师现实吗</a> [20] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2712538" target="_blank" class="news-link">唐朝诡事录之蜀道开机</a> [20] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [bilibili 热搜] <a href="https://search.bilibili.com/all?keyword=%E7%AE%A1%E6%B3%BD%E5%85%83%E8%A7%81%E8%AF%81TES%E5%88%9B%E9%80%A0%E5%A5%87%E8%BF%B9" target="_blank" class="news-link">管泽元见证TES创造奇迹</a> [21] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7699620149766193179/" target="_blank" class="news-link">谷爱凌穿旗袍逛苏州</a> [24] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E7%94%B2%E7%8A%B6%E8%85%BA%E7%99%8C50%E5%B2%81%E4%BB%A5%E4%B8%8B%E6%82%A3%E8%80%85%E5%8D%A065%25%23&amp;t=31&amp;band_rank=24&amp;Refer=top" target="_blank" class="news-link">甲状腺癌50岁以下患者占65%</a> [24] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23%E4%BC%97%E8%A7%A3%E8%AF%B4%E7%9C%8BTES%E6%88%98%E8%83%9CG2%E5%8F%8D%E5%BA%94%23&amp;t=31&amp;band_rank=25&amp;Refer=top" target="_blank" class="news-link">众解说看TES战胜G2反应</a> [25] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2712639" target="_blank" class="news-link">锐评VOGUE红毯明星穿搭</a> [25] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7700213977267224602/" target="_blank" class="news-link">母亲患病 124万被女儿女婿擅自取走</a> [26] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%E6%9B%BC%E8%81%94%E7%90%83%E8%BF%B7%E9%AB%98%E5%94%B1%E5%8D%A1%E9%87%8C%E5%85%8B%E4%B9%8B%E6%AD%8C&amp;t=31&amp;band_rank=26&amp;Refer=top" target="_blank" class="news-link">曼联球迷高唱卡里克之歌</a> [26] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E5%A4%9A%E4%BA%BA%E7%BF%BB%E8%B6%8A%E5%9B%B4%E6%A0%8F%E9%92%93%E9%B1%BC+%E7%AE%A1%E7%BA%BF%E6%96%AD%E8%A3%82%E6%9C%89%E4%BA%BA%E8%90%BD%E6%B0%B4" target="_blank" class="news-link">多人翻越围栏钓鱼 管线断裂有人落水</a> [27] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7699813230826455076/" target="_blank" class="news-link">奥巴马批特朗普：赤裸裸地借机敛财</a> [28] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [微博] <a href="https://s.weibo.com/weibo?q=%23Smash%E4%B8%96%E7%95%8C%E8%B5%9B%E9%A6%96%E4%B8%AA%E4%BA%94%E6%9D%80%23&amp;t=31&amp;band_rank=28&amp;Refer=top" target="_blank" class="news-link">Smash世界赛首个五杀</a> [28] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2712785" target="_blank" class="news-link">全网都在晒女儿</a> [28] <font color='grey'>- 07时26分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7700437060892495401/" target="_blank" class="news-link">巴西总统卢拉为何开始使用智能手机</a> [29] <font color='grey'>- 07时26分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
